@@ -26,4 +26,4 @@ The primary goal was to build a simple DFS where files are split into blocks, st
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/joyo11/DistributedFileSystems.git
