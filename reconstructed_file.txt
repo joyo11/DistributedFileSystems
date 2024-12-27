@@ -1,0 +1,8 @@
+This is a test file.
+It will be split into blocks for distributed storage simulation.
+Let's test the full system.
+This is a test file.
+It will be split into blocks for distributed storage simulation.
+Let's test the full system.
+This is a simple file to demonstrate splitting into blocks.
+The file will be divided into multiple blocks, and each block will be stored in a different node.

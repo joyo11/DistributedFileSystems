@@ -1,0 +1,2 @@
+This is a simple file to demonstrate splitting into blocks.
+The file will be divided into multiple blocks, and each block will be stored in a different node.
