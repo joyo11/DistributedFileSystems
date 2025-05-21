@@ -21,7 +21,7 @@ The primary goal was to build a simple DFS where files are split into blocks, st
 ## How It Works
 1. **File Splitting**: The file is divided into fixed-size blocks, each block stored on multiple nodes.
 2. **Node Failure Simulation**: A random node is simulated to fail during file retrieval.
-3. **File Reconstruction**: The system gathers all the available blocks from the remaining nodes and reconstructs the original file.
+3. **Files Reconstruction**: The system gathers all the available blocks from the remaining nodes and reconstructs the original file.
 
 ## Installation
 1. Clone the repository:
