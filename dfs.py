@@ -14,7 +14,7 @@ def split_file_into_blocks(file_path, num_nodes=3, block_size=1024, replication_
     # Create directories for nodes
     for i in range(1, num_nodes + 1):
         create_blocks_directory(i)
-
+        
     # Open the file in binary read mode
     with open(file_path, "rb") as f:
         file_data = f.read()
