@@ -71,7 +71,7 @@ def retrieve_and_reconstruct_file(output_file_path, num_nodes=3, block_size=1024
                     all_blocks.append((block_file.read(), block_file.name))
 
     # Sort the blocks by the block filename (e.g., block_1.bin, block_2.bin, etc.)
-    # We now extract the block number from the file name, not the full path
+    # We now extract the block number from the file name, not the full path.
     try:
         all_blocks.sort(key=lambda x: int(x[1].split('/')[-1].split('_')[1].split('.')[0]))  # Extract the block number correctly
     except Exception as e:
