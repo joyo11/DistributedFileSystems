@@ -53,7 +53,6 @@ def retrieve_and_reconstruct_file(output_file_path, num_nodes=3, block_size=1024
 
     # Simulate a node failure
     failed_node = simulate_node_failure(num_nodes)
-
     # Determine the number of blocks by checking the node directories
     node_dirs = [os.path.join("dfs", f"node_{i}", "blocks") for i in range(1, num_nodes + 1)]
 
