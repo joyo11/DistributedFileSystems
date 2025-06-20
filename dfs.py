@@ -1,6 +1,5 @@
 # Copyright (c) 2024 Mohammad Shafay Joyo
 # Licensed under the MIT License.
-
 import os
 import random
 
