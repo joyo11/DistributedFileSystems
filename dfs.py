@@ -1,16 +1,16 @@
-# Copyright (c) 2024 Mohammad Shafay Joyo
+# Copyright (c) 2025 Mohammad Shafay Joyo
 # Licensed under the MIT License.
 import os
 import random
 
-# Function to create the blocks directory
+# Function to create the block directory
 def create_blocks_directory(node_num):
     os.makedirs(f"dfs/node_{node_num}/blocks", exist_ok=True)
     print(f"Created dfs/node_{node_num}/blocks")
 
-# Function to split the file into blocks and store them in nodes with replication
+# Function to split the file into block and store them in nodes with replication
 def split_file_into_blocks(file_path, num_nodes=3, block_size=1024, replication_factor=2):
-    # Create directories for nodes
+    # Create directories for node
     for i in range(1, num_nodes + 1):
         create_blocks_directory(i)
         
